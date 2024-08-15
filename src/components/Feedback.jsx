@@ -1,5 +1,4 @@
 import { List, Wrap } from "./ExpressoFeedback.styled";
-import React, { Component } from "react";
 
 export const Feedback = ({ good, neutral, bad }) => {
     const total = good + neutral + bad
