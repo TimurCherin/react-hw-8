@@ -32,7 +32,7 @@ export class App extends Component {
         <Options addGoodFeedback={this.addGoodFeedback} addNeutralFeedback={this.addNeutralFeedback} addBadFeedback={this.addBadFeedback} />
         <Feedback good={this.state.good} neutral={this.state.neutral} bad={this.state.bad} />
       </div>
-    )
+    );
   }
 }
 
